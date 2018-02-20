@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "161003222946",
+    "project_id": "tidal-airway-508"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161003222946:android:9a7a8f0a798c0b7b",
+        "android_client_info": {
+          "package_name": "com.cau.portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161003222946-7aiptn2gqsj7iucuordadevgeq6ggntc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqF6RK2JlF40HO2V3TSCUVSxFkeINgVlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

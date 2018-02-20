@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "107312554496",
+    "project_id": "smartcaugcm"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107312554496:android:cb1fa88a41a08a71",
+        "android_client_info": {
+          "package_name": "com.cau.portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107312554496-5vcsp31k0vv2me73ffi8b56mtpaobga0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCmpdtfEg0WdSlL-lMb6CYxtOu9zxiFXk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

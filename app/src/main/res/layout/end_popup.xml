@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cau.portal.activity.ContentActivity"
+    tools:showIn="@layout/activity_content">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_overlay"
+        >
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="320dp"
+            android:background="@drawable/popup_background"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:src="@drawable/end_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:text="중앙더하기 종료"
+                android:textColor="#0c218a"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/popup_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="180dp"
+                android:text="@string/end_title"
+                android:textColor="#4E4E4E"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9"
+                    android:orientation="horizontal" >
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <Button
+                        android:id="@+id/popup_btn_cancel"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/popup_btn_left"
+                        android:clickable="true"
+                        android:text="@string/popup_cancel"
+                        android:textColor="#999999"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/popup_btn_ok"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/popup_btn_right"
+                        android:clickable="true"
+                        android:text="@string/popup_ok"
+                        android:textColor="#0c218a"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
